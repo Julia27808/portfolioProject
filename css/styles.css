@@ -1,0 +1,45 @@
+
+body {
+    font-family: "Bebas Neue"; }
+  
+h1, h2, h3 {
+    font-family: "Bungee Shade"; }
+h1 {
+    font-family: "Bungee Shade";}
+  
+h2 {
+    color: rgb(102, 102, 230); }
+  
+header h2 {
+    color: #CEC8FF; }
+  
+.site-footer {
+  background-image: linear-gradient(rgb(102, 102, 230), white);
+  padding: 20px 0; }
+
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient( rgb(75, 75, 224),rgb(102, 102, 230));
+  color: black; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.navbar {
+  background-color: rgb(102, 102, 230); }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
+ 
+
+    
