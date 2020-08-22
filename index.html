@@ -91,7 +91,19 @@
                  <div>
                     <p class="d-none d-sm-block">A streamlined web community that helps you create connections, collaborate on projects, and share career advice.</p>
                 </div>
+                <div class="col col-sm-12 align-img-left ">
+                    <div class="media">
+                        <img class="d-flex img-thumbnail" src="img/photo.png" alt="Keyboard" />
+                        <div class="media-body align-self-center">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="col col-xs-12 col-xl-12">
+                    <button class="btn btn-info btn-lg" button type="button" id="joinButton">Join the Herd</button>
+                </div>
            </div>
+           
 
            <div class="col col-sm-7 align-self-right">
                 <div class="media">
@@ -102,40 +114,94 @@
                </div>
            </div>
        </div>
+       <div id="joinButton" class="modal fade bd-example-modal-lg" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Join the nesst</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form id="reserveForm">
+                                <div class="form-group row">
+                                    <label class="col col-sm-12 col-xs-6 col-form-label" for="numCampers"> Number of Campers</label>
+                                    <div class="col">
+                                        <select class="form-control" id="numCampers">
+                                            <option selected>Select...</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            <div class="form-group row">
+                                <label class="col col-sm-12 col-xs-6 col-form-label"for="date"> Date</label>
+                                <div class="col">
+                                    <input class="form-control" type="date" id="date" name="date" placeholder="mm/dd/yyy">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col col-sm-6 col-form-label">Campsite Type</label>
+                                <div class="col btn-group btn-group-toggle" data-toggle="buttons">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-success active">
+                                          <input type="radio" name="siteType" value="tent" id="siteTent" autocomplete="off" checked> Tent
+                                        </label>
+                                        <label class="btn btn-primary">
+                                          <input type="radio" name="siteType" value="RV" id="siteRV" autocomplete="off"> RV
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                    <button type="search" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
        <div class="row row-content align-items-center">
             <div class="media-body ml-4 col col-12">
                 <h2>Streamline your ideas and improve the world with code.</h2>
+                <div class="row row-content align-items-center">
+                    <div class="col col-sm-3">
+                        <div class="media">
+                            <img class="d-flex img-thumbnail" src="img/anas-alshanti-feXpdV001o4-unsplash.jpg" alt="Keyboard" />
+                            <div class="media-body align-self-center"></div>
+                        </div>
+                    </div>
+                    <div class="col col-sm-3">
+                        <div class="media">
+                            <img class="d-flex  img-thumbnail" src="img/thisisengineering-raeng-64YrPKiguAE-unsplash.jpg" alt="Bootstrap Outfitters" />
+                            <div class="media-body align-self-center">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm-3">
+                        <div class="media">
+                            <img class="d-flex img-thumbnail" src="img/safar-safarov-MSN8TFhJ0is-unsplash.jpg" alt="Bootstrap Outfitters" />
+                            <div class="media-body align-self-center">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-sm-3">
+                        <div class="media">
+                            <img class="d-flex img-thumbnail" src="img/alexander-sinn-KgLtFCgfC28-unsplash.jpg" alt="Bootstrap Outfitters" />
+                            <div class="media-body align-self-center">
+                            </div>
+                        </div>
+                    </div>
                 <br>
-                <h3 class="d-none d-sm-block">A Community of coders in one nest.</h3>
-            </div>
-        </div>
-        <div class="row row-content align-items-center">
-            <div class="col col-sm-3">
-                <div class="media">
-                    <img class="d-flex img-thumbnail" src="img/anas-alshanti-feXpdV001o4-unsplash.jpg" alt="Keyboard" />
-                    <div class="media-body align-self-center"></div>
-                </div>
-            </div>
-            <div class="col col-sm-3">
-                <div class="media">
-                    <img class="d-flex  img-thumbnail" src="img/thisisengineering-raeng-64YrPKiguAE-unsplash.jpg" alt="Bootstrap Outfitters" />
-                    <div class="media-body align-self-center">
-                    </div>
-                </div>
-            </div>
-            <div class="col col-sm-3">
-                <div class="media">
-                    <img class="d-flex img-thumbnail" src="img/safar-safarov-MSN8TFhJ0is-unsplash.jpg" alt="Bootstrap Outfitters" />
-                    <div class="media-body align-self-center">
-                    </div>
-                </div>
-            </div>
-            <div class="col col-sm-3">
-                <div class="media">
-                    <img class="d-flex img-thumbnail" src="img/alexander-sinn-KgLtFCgfC28-unsplash.jpg" alt="Bootstrap Outfitters" />
-                    <div class="media-body align-self-center">
-                    </div>
-                </div>
+                <h3 class="d-none d-sm-block col col-12">A Community of coders in one nest.</h3>
             </div>
         </div>
     </div>
@@ -178,6 +244,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
     <!-- endbuild -->
     
 </body>
